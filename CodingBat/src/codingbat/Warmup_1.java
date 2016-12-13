@@ -9,7 +9,7 @@ package codingbat;
  *
  * @author inquis1t0r
  */
-public class CodingBat {
+public class Warmup_1 {
 
     /**
      * @param args the command line arguments
