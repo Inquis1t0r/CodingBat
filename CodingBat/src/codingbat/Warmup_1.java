@@ -12,7 +12,7 @@ public class Warmup_1 {
     public static void main(String[] args) {
         // TODO code application logic here 
     }
-    
+   
     public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
         if (aSmile && bSmile || !aSmile && !bSmile) {
             return true;
