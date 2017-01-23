@@ -47,9 +47,41 @@ public class Warmup_1 {
        
     }
   
+    public int intMax(int a, int b, int c) {
+      int max=0;
+      if ( a > b && a > c)
+      max = a;
 
-  
-  
+      else if ( b > c && b > a)
+      max = b;
+
+      else 
+      max = c;
+
+      return max;
+
+    }
     
+    public boolean parrotTrouble(boolean talking, int hour) {
+      if ( talking == true && hour< 7 ||talking == true && hour > 20)
+        return true;
+      else
+        return false;
+    }
+
     
+        public String front22(String str) {
+            if (str.length() >= 2) {
+                String myString = str.substring(0, 2);
+                return myString + str + myString;
+            } else {
+                String myString = str.substring(0, 0);
+                return str + str + str;
+            }
+
+        }
+   
 }
+
+
+
