@@ -41,10 +41,10 @@ public class Warmup_1 {
     public String notString(String str) {
         if (str.length() >= 3 && str.substring(0, 3).equals("not")) {
             return str;
-        } else {
-            str = "not " + str;
-        }
-        return str;
+            }
+        else       
+        return "not " + str;
+       
     }
   
 
