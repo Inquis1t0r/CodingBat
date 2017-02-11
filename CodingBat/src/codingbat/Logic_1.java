@@ -111,6 +111,21 @@ public class Logic_1 {
        else
        return (a + b);
     }
+    
+    public boolean more20(int n) {
+        return  (n%20 == 1 || n%20 == 2) ? true : false;
+   }
+    
+    public boolean squirrelPlay(int temp, boolean isSummer) {
+  
+        if(temp >= 60 && temp <= 90 && isSummer == false )
+        return true;
+        else if (temp >= 60 && temp <=100 && isSummer == true)
+        return true;
+        else 
+        return false;
+    }
+    
 
 
 }
