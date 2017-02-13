@@ -18,19 +18,13 @@ public class Logic_1 {
       if (outsideMode == false){
         if (n >= 1 && n <= 10) {
           return true;
-        } 
-        else 
-          {
+        } else {
             return false;
           }
-      } 
-      else
-      {
+      } else{
           if (n <= 1 || n >= 10) {
             return true;
-          } 
-          else 
-            {
+          } else{
               return false;
             }
         }
@@ -159,6 +153,13 @@ public class Logic_1 {
         return a + b;
         else
         return a;
+    }
+    
+    public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
+        if(isAsleep || isMorning && !isMom)
+        return false;
+        else 
+        return true;
     }
 
 }
