@@ -1,5 +1,8 @@
 package codingbat;
 
+import java.util.*;
+
+
 /**
  *
  * @author inquis1t0r
@@ -99,6 +102,17 @@ public class Warmup_1 {
                 else
                 return false;
             }
+            
+        public String front3(String str) {
+                String front;
+                if (str.length() >= 3)
+                front = str.substring(0, 3);
+                else 
+                front =  str;
+                return String.join("", Collections.nCopies(3, front));
+  
+            }
+            //TODO rework ^
 
  
    
