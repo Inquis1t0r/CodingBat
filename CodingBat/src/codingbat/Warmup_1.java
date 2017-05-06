@@ -130,7 +130,7 @@ public class Warmup_1 {
              return false;
              else
              subString = str.substring(0, 2);
-             return (subString.equals("hi")) ? true : false;
+             return (subString.equals("hi"));
 }
         //TODO rework ^
 
