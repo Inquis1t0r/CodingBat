@@ -121,6 +121,17 @@ public class Warmup_1 {
                 }
                 return (count >= 1 && count <= 3) ? true : false;
             }
+        
+        public boolean startHi(String str) {
+            
+            String subString;
+
+             if(str.length() < 2)
+             return false;
+             else
+             subString = str.substring(0, 2);
+             return (subString.equals("hi")) ? true : false;
+}
         //TODO rework ^
 
  
