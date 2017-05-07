@@ -130,8 +130,14 @@ public class Warmup_1 {
              return false;
              else
              subString = str.substring(0, 2);
-             return (subString.equals("hi"));
-}
+             return (subString.equals("hi")); 
+            }
+        
+        public boolean in1020(int a, int b) {
+  
+            return ((a >= 10 && a <= 20) || (b >= 10 && b <= 20));
+        }
+        
         //TODO rework ^
 
  
