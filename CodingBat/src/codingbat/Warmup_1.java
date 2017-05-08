@@ -138,6 +138,11 @@ public class Warmup_1 {
             return ((a >= 10 && a <= 20) || (b >= 10 && b <= 20));
         }
         
+        public boolean or35(int n) {
+            return (n % 3 == 0) || (n % 5 == 0);
+        }
+
+        
         //TODO rework ^
 
  
