@@ -153,6 +153,11 @@ public class Warmup_1 {
         public boolean nearHundred(int n) {
             return ((Math.abs(100 - n) <= 10) || (Math.abs(200 - n) <= 10));
         }
+        
+        public boolean hasTeen(int a, int b, int c) {
+            return (a>=13 && a<=19) || (b>=13 && b<=19) || (c>=13 && c<=19);
+        }
+        
 
         //TODO rework ^
 
