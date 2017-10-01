@@ -155,6 +155,13 @@ public class Warmup_1 {
             return (a>=13 && a<=19) || (b>=13 && b<=19) || (c>=13 && c<=19);
         }
         
+        public String delDel(String str) {
+            if((str.length() >= 4 && str.substring(1,4).equals("del")))
+            return str.substring(0, 1) + str.substring(4);
+            else
+            return str;
+        }
+        
 
         //TODO rework ^
 
