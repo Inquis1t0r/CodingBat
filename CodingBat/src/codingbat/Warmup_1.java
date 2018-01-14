@@ -206,6 +206,13 @@ public class Warmup_1 {
             str1 = str.substring(0,(str.length() - 3)) + str.substring(str.length() - 3).toUpperCase();
             return str1;
         }
+    
+        public String backAround(String str) {
+            
+           String back = str.substring(str.length() - 1);
+           return back + str + back;
+        }
+
 
       
 
