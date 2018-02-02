@@ -161,5 +161,15 @@ public class Logic_1 {
         else 
         return true;
     }
+    
+    public boolean less20(int n) {
+          int c = 20;
+          if( n == ( (c%20) - 1) || n == ( (c%20) - 2) )
+          return true;
+          else 
+          return false;
+    }
+    
+    
 
 }
