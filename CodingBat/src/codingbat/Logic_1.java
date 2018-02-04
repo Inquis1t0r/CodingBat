@@ -77,10 +77,7 @@ public class Logic_1 {
     }
 
     public boolean twoAsOne(int a, int b, int c) {
-      if (a + b == c || a + c == b || b+c == a)
-      return true;
-      else 
-      return false;
+      return (a + b == c || a + c == b || b+c == a) ? true : false;
     }
 
     public boolean love6(int a, int b) {
