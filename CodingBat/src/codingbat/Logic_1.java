@@ -82,10 +82,7 @@ public class Logic_1 {
     }
     
     public int sortaSum(int a, int b) {
-      if((a + b) >= 10 && (a + b) <= 19)
-      return 20;
-      else
-      return a + b;
+      return ((a + b) >= 10 && (a + b) <= 19)? 20 : a + b ;
   }
 
     public int teenSum(int a, int b) {
