@@ -12,7 +12,8 @@ package codingbat;
  */
 public class Logic_1 {
     
-
+                //TODO:
+                //Complete refactor
 
     public boolean in1To10(int n, boolean outsideMode) {
       if (outsideMode == false){
