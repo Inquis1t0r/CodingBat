@@ -2,11 +2,11 @@ package codingbat;
 
 import java.util.*;
 
-
 /**
  *
  * @author inquis1t0r
  */
+
 public class Warmup_1 {
 
     /**
@@ -51,15 +51,15 @@ public class Warmup_1 {
     }
   
     public int intMax(int a, int b, int c) {
+        
       int max=0;
+        
       if ( a > b && a > c)
-      max = a;
-
+        max = a;
       else if ( b > c && b > a)
-      max = b;
-
+        max = b;
       else 
-      max = c;
+         max = c;
 
       return max;
 
