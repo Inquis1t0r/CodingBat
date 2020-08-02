@@ -1,3 +1,3 @@
 public boolean xyzThere(String str) {
-  return str.contains("xyz");
+  return str.contains("xyz") && !str.contains(".xyz");
 }
